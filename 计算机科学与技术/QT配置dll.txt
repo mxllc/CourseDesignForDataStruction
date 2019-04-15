@@ -1,0 +1,9 @@
+C:\Qt\5.11.1\mingw53_32\bin\windeployqt.exe   "C:\Users\Dell\Documents\build-Qtest3-Desktop_Qt_5_11_1_MinGW_32bit-Release\release\Qtest3.exe"
+
+
+如果你是基于msvc编译的qt应用，那么此时已经可以运行起来了。 
+但是基于mingw编译的qt应用，此时还有3个依赖项没有自动复制过来，依次是 
+- libgcc_s_dw2-1.dll 
+- libstdc++-6.dll 
+- libwinpthread-1.dll 
+这些文件你都可以在目录D:\Qt\Qt5.8.0\Tools\mingw530_32\i686-w64-mingw32\lib下找到。
